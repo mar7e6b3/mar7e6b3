@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact</title>
+  <style>
+    :root { color-scheme: dark; }
+    html, body { margin: 0; height: 100%; background: #000; }
+    .center {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      gap: 20px;
+    }
+    img {
+      max-width: min(92vw, 1100px);
+      max-height: 85vh;
+      height: auto;
+      width: auto;
+      display: block;
+    }
+    .email {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px; height: 48px;
+      border-radius: 999px;
+      color: #fff;               /* icon color (stroke uses currentColor) */
+      text-decoration: none;
+      outline: none;
+    }
+    .email:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+    svg { display: block; }
+  </style>
+</head>
+<body>
+  <main class="center">
+    <!-- replace with your exact file name; file is served as-is (no processing) -->
+    <img src="1000000356ST.jpg" alt="Symbol image" draggable="false" />
+
+    <!-- replace the email below -->
+    <a class="email" href="mailto:mar7e6b3@proton.me" aria-label="Email">
+      <!-- white mail icon (stroke = currentColor) -->
+      <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect>
+        <path d="M3 7l9 6 9-6"></path>
+      </svg>
+    </a>
+  </main>
+</body>
+</html>
+
